@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Red Hat Display", serif;
+  color: #374151;
+
+  font-style: normal;
+}
+
+main {
+  max-width: 1250px;
+  margin: auto;
+}
+.text {
+  max-width: 750px;
+  margin-block-end: 90px;
+}
+
+.text h2 {
+  color: #6b59d0;
+  padding: 10px;
+}
+
+.text h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #374151;
+}
+
+.organizer {
+  display: flex;
+  gap: 120px;
+  max-width: 96%;
+}
+
+.organizer p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #6b7280;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item img,
+.item h4,
+.item p {
+  margin-bottom: 10px;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
